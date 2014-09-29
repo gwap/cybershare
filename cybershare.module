@@ -1,6 +1,6 @@
 <?php
 /**
- * @cybershare.module
+ * @file
  * Un module qui fournit un bloc afin d'afficher les liens de partage vers les 
  * réseaux sociaux.
  */
