@@ -18,7 +18,7 @@
 function cybershare_help($path, $arg) {
   switch ($path) {
     case "admin/help#cybershare":
-      return '<p>' . t("Affiche des liens de partage vers les réseaux sociaux") . '</p>';
+      return '<p>' . t("Affiche des liens de partage vers les réseaux sociaux.") . '</p>';
       break;
   }
 } 
