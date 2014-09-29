@@ -1,0 +1,5 @@
+name = "CyberShare"
+description = "Mise à disposition d'un bloc contenant les liens de partage vers
+les réseaux sociaux."
+core = 7.x
+package = Cybernaute.ch
