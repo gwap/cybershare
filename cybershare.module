@@ -21,4 +21,15 @@ function cybershare_help($path, $arg) {
       return '<p>' . t("Affiche des liens de partage vers les réseaux sociaux.") . '</p>';
       break;
   }
-} 
+}
+
+/**
+ * Implements hook_block_info().
+ */
+function cybershare_block_info() {
+  $blocks['cybershare'] = array(
+    'info' => t('Réseaux sociaux'),
+    'cache' => DRUPAL_CACHE_PER_ROLE,
+  );
+  return $blocks;
+}
