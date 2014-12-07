@@ -59,7 +59,7 @@ function cybershare_block_view($delta = '') {
         );
         // Create an array of the Social buttons with their icon and link
         foreach ($buttons as $key => $btn) {
-          $items[] = '<a href="' . $btn . '" class="cybershare" target="_blank"><img src="' . $path . $key . '.png" /></a>';
+          $items[] = '<a href="' . $btn . '" class="cybershare" target="_blank"><img src="/' . $path . $key . '.png" /></a>';
         }
         // Display content
         $block['content'] = '<div class="cybershare">' . implode(' ', $items) . '</div>';
